@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ST Community (STM32 MCUs)
+    url: https://community.st.com/s/topic/0TO0X000000BSqSWAW/stm32-mcus
+    about: For STM32 product, hardware, and tool questions that are outside this example.
