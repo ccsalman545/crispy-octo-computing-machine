@@ -222,15 +222,31 @@ and send cadence, is documented in [docs/CONFIGURATION.md](docs/CONFIGURATION.md
 
 ## Documentation
 
+The `docs/` folder is a complete, fully detailed documentation set. Every
+guide uses Mermaid flowcharts that render on GitHub.
+
 | Document | What it covers |
 |:---------|:---------------|
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System diagram, software stack, thread model, memory map, interrupts |
+| [docs/SYSTEM_CLOCK.md](docs/SYSTEM_CLOCK.md) | Clock source, PLL math, bus dividers, HAL time base |
+| [docs/MEMORY_LAYOUT.md](docs/MEMORY_LAYOUT.md) | Linker script, RAM regions, special sections, MPU, map file |
+| [docs/GPIO_AND_BOARD.md](docs/GPIO_AND_BOARD.md) | Board features, LED/button config, RMII pins, serial wiring |
+| [docs/AZURE_RTOS_OVERVIEW.md](docs/AZURE_RTOS_OVERVIEW.md) | ThreadX and NetX Duo concepts used by this firmware |
+| [docs/IPV6_AND_NETWORKING.md](docs/IPV6_AND_NETWORKING.md) | IPv6 configuration, address words, dual-stack behavior, testing |
 | [docs/BUILDING.md](docs/BUILDING.md) | Import, build, flash, debug, CLI build, CubeMX regeneration |
 | [docs/CONFIGURATION.md](docs/CONFIGURATION.md) | Every configurable parameter with file and line references |
 | [docs/PROTOCOL.md](docs/PROTOCOL.md) | Full UDP message reference with decision flowcharts |
 | [docs/CODE_WALKTHROUGH.md](docs/CODE_WALKTHROUGH.md) | Annotated tour of main.c, app_azure_rtos.c, app_netxduo.c |
+| [docs/API_REFERENCE.md](docs/API_REFERENCE.md) | Every application and middleware function signature used |
 | [docs/TESTING.md](docs/TESTING.md) | Test matrix, expected serial output, verification flow |
+| [docs/DEBUGGING.md](docs/DEBUGGING.md) | Breakpoints, watch expressions, hard fault analysis |
 | [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common problems and their fixes |
+| [docs/EXTENDING.md](docs/EXTENDING.md) | Adding threads, TCP, DHCP, more sockets, link-local testing |
+| [docs/FAQ.md](docs/FAQ.md) | Frequently asked questions |
+| [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms used throughout the repository |
+
+Start at [docs/README.md](docs/README.md), which maps how the guides fit
+together and the suggested reading order.
 
 ---
 
