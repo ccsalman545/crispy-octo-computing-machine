@@ -30,7 +30,7 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   architecture, building, configuration, protocol, code walkthrough, testing,
   and troubleshooting.
 * Contributing guide, issue and pull request templates, changelog, and
-  `.gitignore` for build artifacts.
+  repository hygiene files.
 
 [Unreleased]: https://github.com/ccsalman545/crispy-octo-computing-machine
 [1.0.0]: https://github.com/ccsalman545/crispy-octo-computing-machine
