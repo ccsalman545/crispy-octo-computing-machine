@@ -1,0 +1,4 @@
+../NetXDuo/App/app_netxduo.c:67:6:printIPv6	48	static
+../NetXDuo/App/app_netxduo.c:86:6:send_udp_message	48	static
+../NetXDuo/App/app_netxduo.c:124:6:MX_NetXDuo_Init	64	static
+../NetXDuo/App/app_netxduo.c:292:13:nx_app_thread_entry	688	static
