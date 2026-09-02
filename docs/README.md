@@ -24,6 +24,7 @@ project. Every guide uses Mermaid flowcharts that render on GitHub.
 | [EXTENDING.md](EXTENDING.md) | Add threads, TCP, DHCP, more sockets, link-local testing |
 | [FAQ.md](FAQ.md) | Frequently asked questions with short answers |
 | [GLOSSARY.md](GLOSSARY.md) | Terms used throughout the repository |
+| [Progress_Report.pdf](Progress_Report.pdf) | Two-page firmware progress report (baseline 1.0.0, 2 September 2026) |
 
 ## How the guides fit together
 
