@@ -6,7 +6,7 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-* No unreleased changes yet.
+* Two-page firmware progress report: `docs/Progress_Report.pdf`.
 
 ## [1.0.0] - 2026-08-31
 
